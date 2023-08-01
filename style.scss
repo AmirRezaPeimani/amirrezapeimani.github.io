@@ -212,8 +212,8 @@ body {
 }
 
 .news-date {
-  color: #1772d0;
-  font-size: 16px;
+  color: #f09228; /* Set a different color for the date */
+  font-size: 14px; /* Set a smaller font size for the date */
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -233,4 +233,34 @@ body {
 .news-content a:hover {
   border-bottom: 2px solid #1772d0;
 }
+
+
+/* CSS for the Welcome section */
+.welcome-section {
+  height: 100vh; /* Set the height to cover the full viewport height */
+  background-image: url('path/to/your-wallpaper.jpg'); /* Replace with the path to your wallpaper image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff; /* Set the text color to contrast with the background image */
+}
+
+.welcome-content {
+  max-width: 600px;
+}
+
+.welcome-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
 
