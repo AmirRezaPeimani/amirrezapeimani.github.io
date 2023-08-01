@@ -14,7 +14,7 @@
   link: /
   anchor: '#publications'
   highlight: true
-  - name: Teaching
+- name: Teaching
   link: /
   anchor: '#teaching'
   highlight: true
