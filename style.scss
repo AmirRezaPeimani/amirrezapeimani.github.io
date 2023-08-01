@@ -138,9 +138,6 @@ span.highlight {
   padding-left: 1.5rem;
 }
 
-body {
-  min-height: 100vh;
-}
 
 .modal-dialog{
   max-width: 850px;   
@@ -163,11 +160,11 @@ body {
 
 // Bootstrap-specific
 
-body {
-  div.container-fluid {
-    max-width: 1000px;
-  }
+
+div.container-fluid {
+  max-width: 1000px;
 }
+
 
 .font-small {
   font-size: $font-size-small;
@@ -186,8 +183,11 @@ body {
 
 
 body {
+  font-size: 1em;
+  /* Other common body styles */
+  min-height: 100vh;
   padding-top: 100vh; /* Equal to the height of the background image container */
-  margin-left: 5px !important;
+  margin-left: 5px;
 }
 
 
