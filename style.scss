@@ -235,6 +235,13 @@ body {
   background-position: center;
   z-index: -1;
   opacity: 0.7; /* Adjust the opacity as needed */
+  pointer-events: none; /* Prevent the container from capturing mouse events */
+  transition: opacity 0.5s ease-out; /* Add a smooth transition effect when it disappears */
+}
+
+/* Show the background image container only on the first page (index.html) */
+.background-image-container.show {
+  opacity: 1;
 }
 
 /* Welcome section */
