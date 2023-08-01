@@ -194,7 +194,7 @@ body {
 
 /* CSS for the News section */
 .news-section {
-  border-top: 2px solid #f09228;
+  border-top: 2px solid #000080;
   padding-top: 20px;
 }
 
@@ -203,7 +203,7 @@ body {
 }
 
 .news-date {
-  color: #f09228; /* Set a different color for the date */
+  color: #000080; /* Set a different color for the date */
   font-size: 14px; /* Set a smaller font size for the date */
   font-weight: bold;
   margin-bottom: 5px;
@@ -266,8 +266,10 @@ body {
   opacity: 0.8; /* Adjust the opacity as needed */
 }
 
+
 /* Education Section */
 .education-section {
+  border-top: 2px solid #000080;
   padding: 20px;
   margin-bottom: 50px; /* Add some spacing at the bottom */
 }
@@ -278,6 +280,7 @@ body {
 
 /* Teaching Section */
 .teaching-section {
+  border-top: 2px solid #000080;
   padding: 20px;
   margin-bottom: 50px; /* Add some spacing at the bottom */
 }
