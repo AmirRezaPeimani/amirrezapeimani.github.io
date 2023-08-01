@@ -20,6 +20,8 @@
 </head>
 
 <body class="d-flex flex-column">
+  <!-- Background image container shown only on the first page (index.html) -->
+  <div class="background-image-container {% if page.url == '/' %}show{% endif %}" style="background-image: url('images/NiagraFallsForWebsite.jpg');"></div>
   {% include navigation.html %}
 
   <div class="container-fluid flex-fill">
