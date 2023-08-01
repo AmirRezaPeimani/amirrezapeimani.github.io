@@ -1,6 +1,3 @@
----
----
-
 //
 // IMPORTS
 //
@@ -124,10 +121,6 @@ span.highlight {
     &.post-hover {
       z-index:1;
     }
-
-    // @include media-breakpoint-down(sm) {
-    //   max-width: 75%;
-    // }
   }
 }
 
@@ -182,25 +175,6 @@ body {
   background-color: #f8f8f8;
 }
 
-
-
-body {
-  padding-top: 50vh; /* Equal to the height of the background image container */
-}
-
-.background-image-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  z-index: -1; /* To ensure the background is behind other elements */
-}
-
-
-
 /* CSS for the News section */
 .news-section {
   border-top: 2px solid #f09228;
@@ -234,55 +208,64 @@ body {
   border-bottom: 2px solid #1772d0;
 }
 
-
-/* CSS for the Welcome section */
-.welcome-section {
-  height: 100vh; /* Set the height to cover the full viewport height */
-  background-image: url('path/to/your-wallpaper.jpg'); /* Replace with the path to your wallpaper image */
+/* Background image container */
+.background-image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
+  opacity: 0.7; /* Adjust the opacity as needed */
+}
+
+/* Welcome section */
+.welcome-section {
   text-align: center;
-  color: #ffffff; /* Set the text color to contrast with the background image */
+  padding: 40px 20px;
+  color: #ffffff;
 }
 
 .welcome-content {
-  max-width: 600px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.welcome-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+/* Main content */
+.main-content {
+  padding: 20px;
+  margin-bottom: 50px; /* Add some spacing at the bottom */
 }
 
-.welcome-content p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 0.8rem;
-}
-
-/* CSS for the Last Updated section */
+/* Last updated section */
 .last-updated-section {
-  text-align: center;
-  margin-top: 20px;
-  color: #777777;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  opacity: 0.8; /* Adjust the opacity as needed */
 }
 
-
-/* Add this CSS for the new sections */
-
-.education-section, .teaching-section {
-    margin-top: 30px;
+/* Education Section */
+.education-section {
+  padding: 20px;
+  margin-bottom: 50px; /* Add some spacing at the bottom */
 }
 
-.education-item, .teaching-item {
-    margin-bottom: 30px;
+.education-item {
+  margin-bottom: 30px; /* Add spacing between education items */
 }
 
-.location {
-    font-size: 12px;
-    color: #777777;
+/* Teaching Section */
+.teaching-section {
+  padding: 20px;
+  margin-bottom: 50px; /* Add some spacing at the bottom */
 }
 
+.teaching-item {
+  margin-bottom: 30px; /* Add spacing between teaching items */
+}
+
+/* ... (remaining styles) ... */
