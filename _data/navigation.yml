@@ -6,7 +6,15 @@
   link: /
   anchor: '#news'
   highlight: true
+- name: Education
+  link: /
+  anchor: '#education'
+  highlight: true
 - name: Publications
   link: /
   anchor: '#publications'
+  highlight: true
+  - name: Teaching
+  link: /
+  anchor: '#teaching'
   highlight: true
