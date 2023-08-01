@@ -1,16 +1,5 @@
 # Academic personal page based on Jekyll-Now and Bootstrap
 
-A minimalistic, accessible, and mobile friendly [Jekyll-Now](https://github.com/barryclark/jekyll-now) template for academics. 
-Preview available at <https://vsimkus.github.io/academic-jekyll/>.
-
-## Desktop preview
-
-![Desktop preview](/images/academic-jekyll-desktop.png)
-
-## Mobile preview
-
-![Mobile preview](/images/academic-jekyll-mobile.png)
-
 ## Usage
 
 Fork this repository edit the `_config.yml` as described in [Jekyll-Now docs](https://github.com/barryclark/jekyll-now/blob/master/README.md#quick-start), edit the bio section in `index.html` with your details, rename the repository to `your_username.github.io` and make it public. Your website should be up and running.
