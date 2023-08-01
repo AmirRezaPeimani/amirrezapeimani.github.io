@@ -2,7 +2,11 @@
   link: /
   anchor: '#'
   highlight: true
+- name: News
+  link: /
+  anchor: '#news'
+  highlight: true
 - name: Publications
   link: /
   anchor: '#publications'
-  highlight: false
+  highlight: true
