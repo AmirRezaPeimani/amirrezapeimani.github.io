@@ -199,3 +199,38 @@ body {
   // @extend .text-monospace;
   background-color: #f8f8f8;
 }
+
+
+/* CSS for the News section */
+.news-section {
+  border-top: 2px solid #f09228;
+  padding-top: 20px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-date {
+  color: #1772d0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.news-content {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.news-content a {
+  color: #1772d0;
+  text-decoration: none;
+  border-bottom: 1px solid #1772d0;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+.news-content a:hover {
+  border-bottom: 2px solid #1772d0;
+}
+
