@@ -271,3 +271,18 @@ body {
 }
 
 
+/* Add this CSS for the new sections */
+
+.education-section, .teaching-section {
+    margin-top: 30px;
+}
+
+.education-item, .teaching-item {
+    margin-bottom: 30px;
+}
+
+.location {
+    font-size: 12px;
+    color: #777777;
+}
+
