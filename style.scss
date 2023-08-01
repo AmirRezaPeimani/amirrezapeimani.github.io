@@ -250,6 +250,11 @@ body {
   text-align: center;
   padding: 40px 20px;
   color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .welcome-content {
@@ -261,6 +266,7 @@ body {
 .main-content {
   padding: 20px;
   margin-bottom: 50px; /* Add some spacing at the bottom */
+  margin-left: 5px; /* Set the left margin to 0 */
 }
 
 /* Last updated section */
@@ -291,3 +297,15 @@ body {
 .teaching-item {
   margin-bottom: 30px; /* Add spacing between teaching items */
 }
+
+.navbar {
+  /* ... (existing styles) ... */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-color: transparent;
+}
+
+
