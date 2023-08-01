@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<div class="background-image-container" style="background-image: url('images/NiagraFallsForWebsite.jpg');">
+</div>
+
 <!-- index.html -->
 <div class="welcome-section">
   <div class="welcome-content">
@@ -19,8 +22,16 @@ layout: default
 </div>
 
 
-<div class="background-image-container" style="background-image: url('images/NiagraFallsForWebsite.jpg');">
-</div>
+<!-- index.html -->
+<ul class="nav">
+  <!-- ... other menu items ... -->
+  <li><a href="#news" class="nav-link {% if page.highlight == true and page.url contains 'news.html' %}active{% endif %}">News</a></li>
+  <li><a href="#publication" class="nav-link {% if page.highlight == true and page.url contains 'publication.html' %}active{% endif %}">Publication</a></li>
+  <li><a href="#teaching" class="nav-link {% if page.highlight == true and page.url contains 'teaching.html' %}active{% endif %}">Teaching</a></li>
+  <!-- ... other menu items ... -->
+</ul>
+
+
 
 <div class="row flex-column-reverse flex-md-row py-2">
     <div class="col-md-8" id="bio">
