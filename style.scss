@@ -266,7 +266,6 @@ body {
   opacity: 0.8; /* Adjust the opacity as needed */
 }
 
-
 /* Education Section */
 .education-section {
   border-top: 2px solid #000080;
@@ -276,6 +275,23 @@ body {
 
 .education-item {
   margin-bottom: 30px; /* Add spacing between education items */
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.education-item p b {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 /* Teaching Section */
