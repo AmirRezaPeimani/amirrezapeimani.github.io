@@ -7,11 +7,11 @@ author: "Amir R Peimani, Peter Carlen"
 authors: "<strong>Amir R Peimani</strong>"
 venue: "ML4H NeurIPS"
 bib: |
-  @article{Doe2021,
-    author = {Doe J.},
-    journal = {A journal of imaginary research},
-    title = {Another title of the publication},
-    year = {2021}
+  @article{Peimani2023,
+    author = {Peimani AR},
+    journal = {ML4H Publication},
+    title = {ML4H Publication},
+    year = {2023}
   }
 code: https://github.com/vsimkus/academic-jekyll
 ---
