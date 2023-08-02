@@ -274,40 +274,30 @@ body {
 }
 
 .education-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-column-gap: 20px; /* Gap between columns */
   margin-bottom: 30px; /* Add spacing between education items */
 }
 
-.education-item .left-column {
-  flex: 1;
-}
-
-.education-item .right-column {
-  flex-basis: 120px;
-  text-align: right;
-}
-
-.education-item h3 {
+.education-item .university {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
-.education-item p {
+.education-item .details {
   font-size: 1.1rem;
-  margin: 0;
 }
 
-.education-item p:last-child {
-  margin-top: 5px;
+.education-item .details p {
+  margin: 5px 0; /* Adjust spacing between details */
 }
 
-/* Optional: Add some styling to the right column */
-.education-item .right-column p {
+/* Optional: Add some styling to the dates */
+.education-item .details p:last-child {
   color: #666; /* Use a subtle color for the dates */
 }
+
 
 /* Teaching Section */
 .teaching-section {
