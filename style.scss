@@ -191,15 +191,29 @@ body {
 }
 
 
-
-/* CSS for the News section */
+/* News Section */
 .news-section {
   border-top: 2px solid #000080;
   border-bottom: 2px solid #000080;
 }
 
 .news-item {
+  display: flex;
+  align-items: center; /* Center the content vertically */
   margin-bottom: 20px;
+}
+
+.news-thumbnail {
+  flex: 0 0 100px; /* Set the width of the thumbnail */
+  margin-right: 20px; /* Add some spacing between the thumbnail and content */
+}
+
+.news-thumbnail img {
+  width: 100%; /* Make sure the image fits within the thumbnail container */
+}
+
+.news-content {
+  flex: 1; /* Allow the content to take up the remaining space */
 }
 
 .news-date {
@@ -209,7 +223,7 @@ body {
   margin-bottom: 5px;
 }
 
-.news-content {
+.news-content p {
   font-size: 18px;
   line-height: 1.5;
 }
@@ -224,6 +238,8 @@ body {
 .news-content a:hover {
   border-bottom: 2px solid #1772d0;
 }
+
+
 
 /* Background image container */
 .background-image-container {
