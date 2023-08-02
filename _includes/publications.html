@@ -1,11 +1,4 @@
-{% assign all_posts = site.posts %}
-{% assign publication_posts = "" | split: "" %}
-
-{% for post in all_posts %}
-  {% if post.extname == ".md" %}
-    {% assign publication_posts = publication_posts | push: post %}
-  {% endif %}
-{% endfor %}
+{% assign publication_posts = site.posts | contains: 'categories', 'publications' %}
 
 {% if publication_posts.size > 0 %}
 <div class="row py-2">
