@@ -1,4 +1,6 @@
-{% assign publication_posts = site.posts | contains: 'categories', 'publications' %}
+{% assign publication_posts = site.posts | where: "path", "/publications/_posts" %}
+{% assign publication_posts = publication_posts | sort: "date" | reverse %}
+
 {% if publication_posts.size > 0 %}
 <div class="row py-2">
     <div class="col-md-12" id="publications">
