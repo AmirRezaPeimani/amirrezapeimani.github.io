@@ -270,14 +270,14 @@ body {
 .education-section {
   border-top: 2px solid #000080;
   padding: 20px;
-  margin-bottom: 50px; /* Add some spacing at the bottom */
+  margin-bottom: 10px; /* Add some spacing at the bottom */
 }
 
 .education-item {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   grid-column-gap: 20px; /* Gap between columns */
-  margin-bottom: 30px; /* Add spacing between education items */
+  margin-bottom: 10px; /* Add spacing between education items */
 }
 
 .education-item .university {
@@ -290,13 +290,9 @@ body {
 }
 
 .education-item .details p {
-  margin: 5px 0; /* Adjust spacing between details */
+  margin: 1px 0; /* Adjust spacing between details */
 }
 
-/* Optional: Add some styling to the dates */
-.education-item .details p:last-child {
-  color: #666; /* Use a subtle color for the dates */
-}
 
 
 /* Teaching Section */
