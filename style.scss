@@ -187,7 +187,7 @@ body {
   /* Other common body styles */
   min-height: 100vh;
   padding-top: 100vh; /* Equal to the height of the background image container */
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 
@@ -276,7 +276,7 @@ body {
 .education-item {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
-  grid-column-gap: 20px; /* Gap between columns */
+  grid-column-gap: 30px; /* Gap between columns */
   margin-bottom: 10px; /* Add spacing between education items */
 }
 
@@ -301,7 +301,7 @@ body {
 }
 
 .teaching-item {
-  margin-bottom: 30px; /* Add spacing between teaching items */
+  margin-bottom: 100px; /* Add spacing between teaching items */
 }
 
 .teaching-item h3 {
