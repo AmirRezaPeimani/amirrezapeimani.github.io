@@ -1,5 +1,12 @@
-{% assign publication_posts = site.posts | where: "path", "/publications/_posts" %}
-{% assign publication_posts = publication_posts | sort: "date" | reverse %}
+{% assign all_posts = site.posts %}
+{% assign publication_posts = "" | split: "" %}
+
+{% for post in all_posts %}
+  {% if post.extname == ".md" %}
+    {% assign publication_posts = publication_posts | push: post %}
+  {% endif %}
+{% endfor %}
+
 {% if publication_posts.size > 0 %}
 <div class="row py-2">
     <div class="col-md-12" id="publications">
