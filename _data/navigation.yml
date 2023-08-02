@@ -1,6 +1,10 @@
+- name: Home
+  link: /
+  anchor: '#home'
+  highlight: true
 - name: About
   link: /
-  anchor: '#'
+  anchor: '#about'
   highlight: true
 - name: News
   link: /
