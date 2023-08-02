@@ -274,25 +274,41 @@ body {
 }
 
 .education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 30px; /* Add spacing between education items */
+}
+
+.education-item .left-column {
+  flex: 1;
+}
+
+.education-item .right-column {
+  flex-basis: 120px;
+  text-align: right;
 }
 
 .education-item h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .education-item p {
   font-size: 1.1rem;
-  margin-bottom: 5px;
+  margin: 0;
 }
 
-.education-item p b {
-  display: block;
-  font-weight: bold;
-  margin-top: 10px;
+.education-item p:last-child {
+  margin-top: 5px;
 }
+
+/* Optional: Add some styling to the right column */
+.education-item .right-column p {
+  color: #666; /* Use a subtle color for the dates */
+}
+
 /* Teaching Section */
 .teaching-section {
   border-top: 2px solid #000080;
