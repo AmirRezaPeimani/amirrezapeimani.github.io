@@ -191,6 +191,7 @@ span.highlight {
 
 .publication-image {
   flex: 0 0 100px; /* Set the width of the image */
+  height: 100%; /* Set the height of the image to match the details container */
   margin-right: 20px;
   overflow: hidden;
   border-radius: 10px;
@@ -198,7 +199,7 @@ span.highlight {
 
 .publication-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
