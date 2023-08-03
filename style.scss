@@ -130,16 +130,16 @@ span.highlight {
 .publications-section {
   border-top: 2px solid #000080;
   padding: 20px;
-  margin-bottom: 40px; /* Add some spacing at the bottom */
+  margin-bottom: 20px; /* Add some spacing at the bottom */
 }
 
 
 .publication-category {
-  margin-bottom: 30px; /* Add spacing between categories */
+  margin-bottom: 10px; /* Add spacing between categories */
 }
 
 .publication-category h3 {
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -152,7 +152,7 @@ span.highlight {
 .publication-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 20px; /* Reduce spacing between items */
+  margin-bottom: 10px; /* Reduce spacing between items */
 }
 
 .publication-image {
@@ -174,14 +174,14 @@ span.highlight {
 }
 
 .publication-title {
-  font-size: 1.2rem; /* Reduce font size */
+  font-size: 0.9rem; /* Reduce font size */
   font-weight: bold;
-  margin-bottom: 5px;
+  : 5px;
 }
 
 .publication-authors {
-  font-size: 1rem; /* Reduce font size */
-  margin-bottom: 5px;
+  font-size: 0.9rem; /* Reduce font size */
+  : 5px;
 }
 
 .publication-authors strong {
@@ -190,7 +190,7 @@ span.highlight {
 
 .publication-date {
   font-size: 0.9rem;
-  margin-bottom: 5px;
+  : 5px;
 }
 
 .publication-venue a {
@@ -205,8 +205,8 @@ span.highlight {
 }
 
 .publication-description {
-  font-size: 1rem;
-  margin-bottom: 5px; /* Reduce spacing */
+  font-size: 0.9rem;
+  : 5px; /* Reduce spacing */
 }
 
 // Bootstrap-specific
@@ -251,7 +251,7 @@ body {
 .news-item {
   display: flex;
   align-items: center; /* Center the content vertically */
-  margin-bottom: 10px;
+  : 10px;
 }
 
 .news-thumbnail {
@@ -271,7 +271,7 @@ body {
   color: #000080; /* Set a different color for the date */
   font-size: 14px; /* Set a smaller font size for the date */
   font-weight: bold;
-  margin-bottom: 5px;
+  : 5px;
 }
 
 .news-content p {
@@ -337,7 +337,7 @@ body {
 .education-section {
   border-top: 2px solid #000080;
   padding: 20px;
-  margin-bottom: 40px; /* Add some spacing at the bottom */
+  margin-bottom: 20px; /* Add some spacing at the bottom */
 }
 
 .education-item {
@@ -364,7 +364,7 @@ body {
 .teaching-section {
   border-top: 2px solid #000080;
   padding: 20px;
-  margin-bottom: 40px; /* Add some spacing at the bottom */
+  margin-bottom: 20px; /* Add some spacing at the bottom */
 }
 
 .teaching-item {
