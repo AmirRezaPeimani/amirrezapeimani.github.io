@@ -109,9 +109,6 @@ span.highlight {
   height: auto;
 }
 
-
-// ... Your existing styles ...
-
 // Publications Section
 .publications-section {
   border-top: 2px solid #000080;
@@ -119,13 +116,25 @@ span.highlight {
   margin-bottom: 40px; /* Add some spacing at the bottom */
 }
 
-.publications-section h3 {
+.publications-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.publication-category {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px; /* Add spacing between categories */
+}
+
+.publication-category h3 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.publications-section ul {
+.publication-category ul {
   list-style: none;
   padding-left: 0;
 }
@@ -133,7 +142,7 @@ span.highlight {
 .publication-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Reduce spacing between items */
 }
 
 .publication-image {
@@ -155,13 +164,13 @@ span.highlight {
 }
 
 .publication-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem; /* Reduce font size */
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .publication-authors {
-  font-size: 1rem;
+  font-size: 1rem; /* Reduce font size */
   margin-bottom: 5px;
 }
 
@@ -187,11 +196,8 @@ span.highlight {
 
 .publication-description {
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 5px; /* Reduce spacing */
 }
-
-// ... Your existing styles ...
-
 
 
 // Bootstrap-specific
