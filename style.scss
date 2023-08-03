@@ -126,8 +126,7 @@ span.highlight {
   height: auto;
   margin-bottom: 10px; /* Add some spacing between the portrait and info */
 }
-
-// Publications Section
+/* Publications Section */
 .publications-section {
   border-top: 2px solid #000080;
   padding: 20px;
@@ -141,20 +140,18 @@ span.highlight {
 }
 
 .publication-category {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 40px; /* Add spacing between categories */
+  margin-bottom: 30px; /* Add spacing between categories */
 }
 
 .publication-category h3 {
   font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .publication-category ul {
-  list-style: none;
-  padding-left: 0;
+  list-style-type: disc; /* Use disc bullets for the list */
+  padding-left: 20px; /* Indent the bullet points */
 }
 
 .publication-item {
@@ -216,7 +213,6 @@ span.highlight {
   font-size: 1rem;
   margin-bottom: 5px; /* Reduce spacing */
 }
-
 
 // Bootstrap-specific
 
