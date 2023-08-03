@@ -109,56 +109,39 @@ span.highlight {
   height: auto;
 }
 
-.project-thumbnail-parent {
-  display: grid;
-  grid-template-columns: 1fr;
 
-  .project-thumbnail {
-    width: auto; 
-    height: auto; 
-    max-width: 100%;
-    
-    grid-row-start: 1;
-    grid-column-start: 1;
-
-    &.pre-hover {
-      z-index:2;
-    }
-    &.post-hover {
-      z-index:1;
-    }
-
-    // @include media-breakpoint-down(sm) {
-    //   max-width: 75%;
-    // }
-  }
+// Publications Section
+.publications-section {
+  border-top: 2px solid #000080;
+  padding: 20px;
+  margin-bottom: 40px; /* Add some spacing at the bottom */
 }
 
-.project-description {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
+.publications-section h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.publications-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.publications-section li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.publication-title {
+  font-weight: bold;
+}
+
+.authors {
+  font-style: italic;
 }
 
 
-.modal-dialog{
-  max-width: 850px;   
-}
-
-// Publications
-
-.publication {
-  .authors {
-    a {
-      color: #000000;
-    }
-    a:focus,
-    a:hover {
-      color: #f09228;
-      text-decoration: none;
-    }
-  }
-}
 
 // Bootstrap-specific
 
