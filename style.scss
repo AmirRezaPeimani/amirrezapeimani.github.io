@@ -60,12 +60,13 @@ h2 {
   font-size: 1.75rem;
   font-display: auto;
   font-weight: normal;
-  padding: 0px;
-  margin: 20px;
+  padding: 20px;
+  margin: 0px;
   margin-bottom: 20px;
   border-bottom: 2px solid #000080;
   padding-bottom: 5px; /* Add some spacing between the title and the border line */
   display:block; 
+  width: 100%;
 }
 
 h3 {
@@ -434,7 +435,7 @@ body {
 .award-item h3 {
   font-size: 1.1rem;
 }
-.award-title {
+.award-item .award-title {
   font-weight: bold;
 }
 
