@@ -167,13 +167,15 @@ span.highlight {
 }
 
 .publication-category {
-  margin-bottom: 5px; /* Add spacing between categories */
+  margin-bottom: 10px; /* Add spacing between categories */
+  padding: 10px;
 }
 
 .publication-category h3 {
   font-size: 1.45rem;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  padding: 20px;
 }
 
 .publication-category ul {
@@ -184,7 +186,7 @@ span.highlight {
 .publication-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 5px; /* Reduce spacing between items */
+  margin-bottom: 2px; /* Reduce spacing between items */
 }
 
 .publication-image {
@@ -208,12 +210,12 @@ span.highlight {
 .publication-title {
   font-size: 0.9rem; /* Reduce font size */
   font-weight: bold;
-  margin-bottom: 5px; /* Add space between lines */
+  margin-bottom: 2px; /* Add space between lines */
 }
 
 .publication-authors {
   font-size: 0.9rem; /* Reduce font size */
-  margin-bottom: 5px; /* Add space between lines */
+  margin-bottom: 2px; /* Add space between lines */
 }
 
 .publication-authors strong {
@@ -223,13 +225,14 @@ span.highlight {
 .publication-venue-date {
   font-size: 0.9rem; /* Set font size */
   font-style: italic; /* Make it italic */
-  margin-bottom: 5px; /* Add space between lines */
+  margin-bottom: 2px; /* Add space between lines */
 }
 
 .publication-title strong {
   font-weight: bold;
   display: block;
 }
+
 
 
 // Bootstrap-specific
