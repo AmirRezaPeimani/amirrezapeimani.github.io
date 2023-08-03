@@ -100,13 +100,31 @@ h1 {
 span.highlight {
   background-color: #ffffd0;
 }
+/* Bio Section */
+#about {
+  position: relative; /* Ensure the position of portrait and info is relative to the bio section */
+}
 
-// Website specific
+#bio {
+  position: relative; /* Ensure the position of portrait and info is relative to the bio section */
+}
+
+.col-md-4 {
+  display: flex; /* Display the portrait and info side by side */
+  flex-direction: column; /* Display the info under the portrait */
+  align-items: center; /* Center the content horizontally */
+  text-align: center;
+}
+
+.col-md-4 p {
+  margin-bottom: 0; /* Remove extra margin from the info paragraph */
+}
 
 #portrait {
   width: 100%;
   max-width: 100%;
   height: auto;
+  margin-bottom: 10px; /* Add some spacing between the portrait and info */
 }
 
 // Publications Section
