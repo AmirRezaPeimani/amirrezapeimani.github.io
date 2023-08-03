@@ -1,12 +1,11 @@
-{% assign publication_posts = site.posts | where: 'categories', 'publications' %}
-
-{% if publication_posts.size > 0 %}
+{% assign all_posts = site.posts %}
+{% if all_posts.size > 0 %}
 <div class="row py-2">
     <div class="col-md-12" id="publications">
         <h2>Publications</h2>
     </div>
 </div>
-{% for post in publication_posts %}
+{% for post in all_posts %}
 <div class="row py-2 publication">
     <div class="col-md-2 col-sm-12 project-thumbnail-parent" align="center">
         <img class="project-thumbnail {% if post.image_onhover %} pre-hover {% endif %}" src="{{site.baseurl}}/tn{{post.image}}" alt="project image" />
