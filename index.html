@@ -2,8 +2,11 @@
 layout: default
 ---
 
+
 <div class="background-image-container" style="background-image: url('images/NiagraFallsForWebsiteSmall.jpg');">
 </div>
+
+
 
 <!-- index.html -->
 <div class="welcome-section" id="home">
@@ -17,6 +20,7 @@ layout: default
     </p>
   </div>
 </div>
+
 
 
 
@@ -92,9 +96,14 @@ layout: default
   </div>
 </div>
 
+
+
+
+
 {% include news.html %} 
 {% include publications.html %}
 {% include teaching.html %}
+{% include awards.html %}
 
 <div class="last-updated-section">
   <p>Last Updated: {{ site.time | date: "%B %d, %Y" }}</p>
