@@ -176,12 +176,12 @@ span.highlight {
 .publication-title {
   font-size: 0.9rem; /* Reduce font size */
   font-weight: bold;
-  : 5px;
+  margin-bottom: 5px;
 }
 
 .publication-authors {
   font-size: 0.9rem; /* Reduce font size */
-  : 5px;
+  margin-bottom: 5px;
 }
 
 .publication-authors strong {
@@ -190,7 +190,7 @@ span.highlight {
 
 .publication-date {
   font-size: 0.9rem;
-  : 5px;
+  margin-bottom: 5px;
 }
 
 .publication-venue a {
@@ -206,7 +206,7 @@ span.highlight {
 
 .publication-description {
   font-size: 0.9rem;
-  : 5px; /* Reduce spacing */
+  margin-bottom: 5px; /* Reduce spacing */
 }
 
 // Bootstrap-specific
@@ -271,7 +271,7 @@ body {
   color: #000080; /* Set a different color for the date */
   font-size: 14px; /* Set a smaller font size for the date */
   font-weight: bold;
-  : 5px;
+  margin-bottom: 5px;
 }
 
 .news-content p {
