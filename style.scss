@@ -120,6 +120,26 @@ span.highlight {
   margin-bottom: 0; /* Remove extra margin from the info paragraph */
 }
 
+
+.research-interests {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.research-interests p {
+  font-size: 1.1rem;
+}
+
+.research-interests ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.research-interests li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
 #portrait {
   width: 100%;
   max-width: 100%;
