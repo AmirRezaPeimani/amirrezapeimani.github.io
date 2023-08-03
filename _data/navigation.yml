@@ -22,3 +22,7 @@
   link: /
   anchor: '#teaching'
   highlight: true
+- name: Awards
+  link: /
+  anchor: '#awards'
+  highlight: true
